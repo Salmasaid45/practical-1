@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+
+
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#details .img{
+    height: 20px;
+    width: 20px;
+    border-radius: 20%;
+}
+
+
+
+
+
+h1 {
+    text-align: center;
+}
+section h2 {
+    font-size: 1.5em;
+}
+
+section details {
+    font-size: 1.5em;
+}
+section my interests {
+    font-size: 1.5em;
+}
+
+header a{
+    text-decoration: none;
+    color:black
+}
+
+/* add everything below here */
+#details {
+    background-color: lightslategrey;
+}
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    color: whitesmoke;
+}
