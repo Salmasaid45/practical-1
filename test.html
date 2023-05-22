@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3{
+            text-align: left;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h2><u><b>form(step1)</b></u></h2m>
+    <form name="my form">
+        Entry: <input type="text" name="fname"><br>
+        <button type="button" onclick="AddEntry">AddEntry</button>
+        <button type="button" onclick="summary">summary</button>
+        <p><b>entries</b></p><br>
+        <p><b>summary</b></p><br>
+
+        <h3><u><b>After adding three entries (step2)</b></u></h3>
+        <form name="my form">
+            Entry: <input type="text" name="fname" placeholder="peter, validation, 9"><br>
+            <button type="button" onclick="AddEntry">AddEntry</button>
+            <button type="button" onclick="summary">summary</button>
+
+            <h2><b>entries</b></h2>
+            <p>mary, debugging code, 15</p>
+            <p>terps, testing, 7</p>
+            <p>peter, validation, 9</p>
+            <h2><b>summary</b></h2><br>
+
+            <h3><u><b>After selecting summary (step 3)</b></u></h3>
+        <form name="my form">
+            Entry: <input type="text" name="fname" placeholder="peter, validation, 9"><br>
+            <button type="button" onclick="AddEntry">AddEntry</button>
+            <button type="button" onclick="summary">summary</button>
+
+            <h2><b>entries</b></h2>
+            <p>mary, debugging code, 15</p>
+            <p>terps, testing, 7</p>
+            <p>peter, validation, 9</p>
+            <h2><b>summary</b></h2>
+            <p>Total: 3</p>
+            <p>terps testing 7</p>
+            <p>peter validation 9</p>
+    </form>
+    <script>
+        function form(){
+            var x = document.forms['my form']
+            ["fname"].value;
+            if (x== "") {
+                alert("this field is required");
+                return false;
+            }
+        }
+
+        function form(){
+            var x = document.forms['my form']
+            ["fname"].value;
+            if (x== "") {
+                alert("this field is required");
+                return false;
+            }
+        }
+
+        function form(){
+            var x = document.forms['my form']
+            ["fname"].value;
+            if (x== "") {
+                alert("this field is required");
+                return false;
+            }
+        }
+    </script>
+    
+</body>
+</html>
